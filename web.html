@@ -4,57 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            background: #444;
-            color: #fff;
-            padding: 10px;
-            text-align: left;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-            display: inline-block;
-        }
-        main {
-            padding: 20px;
-            background: #fff;
-            max-width: 800px;
-            margin: 20px auto;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .profile-pic {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: #ccc;
-            display: inline-block;
-            margin-right: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS файла -->
 </head>
 <body>
 
@@ -64,25 +14,33 @@
 </header>
 
 <nav>
-    <a href="web.html">Главная</a> <!-- Ссылка на главную страницу -->
-    <a href="#">Первый семестр</a>
-    <a href="#">Второй семестр</a>
-    <a href="web1.html">Услуги</a> <!-- Ссылка на страницу услуг -->
-    <a href="web2.html">Авторизация</a> <!-- Ссылка на страницу авторизации -->
+    <a href="web.html">Главная</a>
+    <a href="web1.html">Первый семестр</a>
+    <a href="web2.html">Второй семестр</a>
+    <a href="web3.html">Услуги</a>
+    <a href="web4.html">Авторизация</a>
 </nav>
 
 <main>
     <h1>Добро пожаловать на мой сайт</h1>
     <div>
-        <img src="tupavadous.png" class="profile-pic" alt="Профильная фотография">
+        <img src="tupavadous.png" class="profile-pic" alt="Профильное фото">
     </div>
     <p>Меня зовут Третьяков Илья и я начинающий специалист по веб-разработке.</p>
 
     <h2>Фронтенд</h2>
     <p>Фронтенд (или клиентская часть) — это то, что видит пользователь. Он включает в себя все визуальные элементы веб-сайта или приложения: кнопки, формы, изображения и текст. Фронтенд разработчики используют языки разметки и стилизации, такие как HTML, CSS и JavaScript, чтобы создавать интерактивные и привлекательные интерфейсы. Основная задача фронтенда — обеспечить удобство использования и эстетическую привлекательность.</p>
 
+    <video controls>
+        <source src="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4" type="video/mp4">
+    </video>
+
     <h2>Бэкенд</h2>
     <p>Бэкенд (или серверная часть) — это "за кулисами" веб-приложения. Он отвечает за обработку данных, управление пользователями и взаимодействие с базами данных. Бэкенд разработчики используют языки программирования, такие как Python, Ruby, Java или PHP, а также фреймворки и базы данных для создания логики приложения. Основная задача бэкенда — обеспечить стабильную работу приложения и безопасность данных.</p>
+
+    <video controls>
+        <source src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4" type="video/mp4">
+    </video>
 </main>
 
 <footer>

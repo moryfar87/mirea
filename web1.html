@@ -3,77 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Разработка веб-приложений</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        nav {
-            display: flex;
-            gap: 15px;
-        }
-        .container {
-            display: flex;
-            margin: 20px;
-        }
-        .sidebar {
-            width: 200px;
-            background-color: #fff;
-            padding: 15px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .main-content {
-            flex: 1;
-            padding: 15px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .services {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .service-box {
-            width: 30%;
-            height: auto; /* Изменено на auto для автоматического расчета высоты */
-            background-color: #eaeaea;
-            display: flex;
-            flex-direction: column; /* Расположение элементов в колонку */
-            justify-content: center;
-            align-items: center;
-            margin: 0 5px;
-            border: 1px solid #ccc;
-            padding: 10px; /* Добавлено padding для внутреннего отступа */
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        /* Стиль для изображений */
-        .service-box img {
-            width: 100%; /* Изображение занимает всю ширину блока */
-            height: auto; /* Сохранение пропорций изображения */
-            border: 1px solid #ccc; /* Рамка вокруг изображения */
-        }
-    </style>
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Подключение CSS файла -->
 </head>
 <body>
+
 
 <header>
     <h1>Группа ЭФБО-06-23</h1>
@@ -82,39 +16,184 @@
 
 <nav>
     <a href="web.html">Главная</a> <!-- Ссылка на главную страницу -->
-    <a href="#">Первый семестр</a>
-    <a href="#">Второй семестр</a>
-    <a href="web1.html">Услуги</a>
-    <a href="web2.html">Авторизация</a>
+    <a href="web1.html">Первый семестр</a>
+    <a href="web2.html">Второй семестр</a>
+    <a href="web3.html">Услуги</a> <!-- Ссылка на страницу услуг -->
+    <a href="web4.html">Авторизация</a> <!-- Ссылка на страницу авторизации -->
 </nav>
 
-<div class="container">
-    <aside class="sidebar">
-        <h3>Навигация по странице</h3>
-        <ul>
-            <li>Фронтенд</li>
-            <li>Бэкенд</li>
-        </ul>
-    </aside>
 
-    <main class="main-content">
-        <h1>Разработка веб-приложений</h1>
-        <div class="services">
-            <div class="service-box">
-                <img src = "визитка.png" alt="Сайт-визитка">
-                <p>Сайт-визитка</p>
-            </div>
-            <div class="service-box">
-                <img src = "сайт.png" alt="Корпоративный сайт">
-                <p>Корпоративный сайт</p>
-            </div>
-            <div class="service-box">
-                <img src = "magazinexd.png" alt="Интернет-магазин">
-                <p>Интернет-магазин</p>
-            </div>
-        </div>
-    </main>
-</div>
+<main>
+    <h1>Первый семестр</h1>
+
+    <h2>Лекции</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Номер</th>
+                <th>Тема</th>
+                <th>Посещение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Основы языка HTML</td>
+                <td><div class="checkbox">✓</div></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Углубленное изучение HTML</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Основы работы с CSS</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Адаптивная верстка: Flexbox и Grid Layout</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Bootstrap — работа с фреймворком</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Основы языка JavaScript</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Работа с DOM и событиями в JavaScript</td>
+                <td><div class="checkbox"></div></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Введение в GitHub и GitHub Pages</td>
+                <td><div class="checkbox"></div></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Практики</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>Тема</th>
+                    <th>Посещение</th>
+                    <th>Выполнение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Основы языка HTML</td>
+                    <td><div class="checkbox">✓</div></td>
+                    <td><div class="checkbox">✓</div></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Формы и кнопки в HTML</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Таблицы и интерактивные элементы HTML</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Основы работы с CSS</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Работа с классами в CSS</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Работа с сетками и разметкой в HTML</td>
+                    <td><div class="checkbox"></div></td>
+
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Адаптивная верстка</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bootstrap</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Основы языка JavaScript</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Базовые задачи на JS</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>DOM-структура приложений и работа с объектами на языке JS</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Встраивание скриптов</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Отладка сценариев</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Анимации и работа с ними</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>GitHub</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Защита проекта</td>
+                    <td><div class="checkbox"></div></td>
+                    <td><div class="checkbox"></div></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Интерактивная Яндекс карта</h2>
+        <iframe src="https://yandex.ru/map-widget/v1/-/CDHdMWOy" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+</main>
 
 <footer>
     © Третьяков Илья, 2024
