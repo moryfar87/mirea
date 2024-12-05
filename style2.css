@@ -113,3 +113,23 @@ footer {
         height: 300px;
     }
 }
+#showSecondSemesterPractices {
+    background-color: #40414f;
+    color: #ececf1;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#showSecondSemesterPractices:hover {
+    background-color: #565869;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#showSecondSemesterPractices:active {
+    background-color: #343541;
+}
